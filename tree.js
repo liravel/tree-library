@@ -25,7 +25,6 @@ class Tree {
     return this.children.get(key);
   }
 
-  // BEGIN (write your solution here)
   hasChildren() {
     for (let [key, value] of this.children) {
       return true;
@@ -56,7 +55,6 @@ class Tree {
   getChildren() {
     return [...this.children.values()];
   }
-  // END
 }
 
 export default Tree;
